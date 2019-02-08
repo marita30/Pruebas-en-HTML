@@ -65,16 +65,45 @@ h6{
 	color: olive;
 }
 */
+.center-banner{
+	display: flex;
+	justify-content: center;
+}
 .banner{
-	width: 900px;
+	width: 1000px;
 	height: 300px;
 	border: 3px solid olive;
-	margin: 19px;
-	background-image: url(../img/londres.jpg);
+	margin: 20px;
+	/*agregando foto al baner*/
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	
-
-
+	animation-name: banner;
+	animation-duration: 10s;
+	animation-iteration-count: infinite; 
+	border-radius: 10%
 
 }
+
+/*haciendo las paradas de cada imagen agregadas en el banner*/
+
+
+@keyframes banner {
+	0%, 20% {
+		background-image: url(../img/natu.jpg) ;
+	}
+	31%, 40% {
+		background-image: url(../img/natu1.jpg) ;
+	}
+	41%, 60%{
+		background-image: url(../img/natu2.jpg) ;
+	}
+	61%, 80%{
+		background-image: url(../img/natu3.jpg) ;
+	}
+	81%, 100%{
+		background-image: url(../img/natu4.jpg) ;
+	}
+}
+
+
+

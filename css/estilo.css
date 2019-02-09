@@ -1,70 +1,7 @@
-/* dandole estilos*/
-
-/*a{
-	color: blue;
-	padding: 150px;
-	margin: 0;
-	font-family: times new roman;
-	font-size: 17px;
-
-}*/
 
 
-ul {
+/* 
 
-
-    list-style-type:  none;
-    font-size:  18px;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    background-color: olive;
-
-
-}
-
-li {
-
-	float: right;
-
-}
-
-li a {
-
-	text-decoration: none/*underline overline dotted blue*/;
-	color: blue;
-	padding: 10px;
-	font-family: times new roman;
-	font-size: 17px;
-	display: block;
-	background-color: gray;
-	color: white;
-
-}
-li a:hover{
-
-	background-color: olive;
-	color: white;
-}
-/*
-h1{
-	text-align: center;
-	font-family: arial;
-	color: olive;
-}
-
-p{
-	text-align: center;
-	font-family: times new roman;
-	color: gray;
-}
-
-h6{
-	text-align: center;
-	font-family: arial;
-	color: olive;
-}
-*/
 .center-banner{
 	display: flex;
 	justify-content: center;
@@ -74,7 +11,7 @@ h6{
 	height: 300px;
 	border: 3px solid olive;
 	margin: 20px;
-	/*agregando foto al baner*/
+	
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	animation-name: banner;
@@ -83,10 +20,6 @@ h6{
 	border-radius: 10%
 
 }
-
-/*haciendo las paradas de cada imagen agregadas en el banner*/
-
-
 @keyframes banner {
 	0%, 20% {
 		background-image: url(../img/natu.jpg) ;
@@ -105,5 +38,72 @@ h6{
 	}
 }
 
+*/
 
+/*.flora{
 
+font-family: time new roman ;
+font-size: 23px;
+
+}
+*/
+
+/******* diseño del narv **********/
+ul{
+
+	list-style-type:  none;
+    font-size:  20px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: olive;
+    font-family: time new roman;
+     list-style-type: none;
+
+}
+
+li {
+
+float: left;
+border-right: 1px solid silver;
+
+}
+
+li a{
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: silver;
+}
+/******** banner (carrusel)********/
+
+span{
+
+font-family: time new roman ;
+font-size: 20px;
+color: olive;
+}
+ 
+ /*******diseño para titulo********/
+ h2{
+
+ 	text-align: center;
+	font-family: Times new roman;
+	color: white;
+	margin: 20px;
+	background-color: olive;
+
+ }
+/*******diseño de los cuadros de texto*******/
+ .card{
+margin-left: 2em;
+
+ }
+
+ 

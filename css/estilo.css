@@ -39,55 +39,55 @@
 }
 
 */
-
-/*.flora{
-
-font-family: time new roman ;
-font-size: 23px;
-
+body{
+	background-image: url(../img/lon.jpeg);
+	background-color: white;
 }
-*/
 
 /******* diseño del narv **********/
-ul{
+nav{
 
 	list-style-type:  none;
-    font-size:  20px;
+    font-size:  1em;
     overflow: hidden;
     margin: 0;
     padding: 0;
-    background-color: olive;
-    font-family: time new roman;
+    /*background-color: olive;*/
+    font-family: bookman old style;
      list-style-type: none;
+     border-style: 1px solid  ;
 
 }
 
-li {
+/*li {
 
 float: left;
 border-right: 1px solid silver;
 
-}
+}*/
 
-li a{
+nav a{
 
   display: block;
-  color: white;
+  color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
+  font-family: bookman old style;
 }
 
-li a:hover {
+nav a:hover {
   background-color: silver;
 }
 /******** banner (carrusel)********/
 
 span{
 
-font-family: time new roman ;
-font-size: 20px;
-color: olive;
+font-family: times new roman ;
+font-size: 25px;
+color: black;
+font-weight: bold;
+text-align: center; 
 }
  
  /*******diseño para titulo********/
@@ -102,9 +102,43 @@ color: olive;
  }
 /*******diseño de los cuadros de texto*******/
  .card{
-margin-left: 2em;
-margin-top:  1em;
+
+border-style: 2px solid olive;
 
  }
+/*****dandole estilo a la clase container******/
 
- 
+.container{
+
+ width: 100%;
+ border: 100px inset silver  ;
+ background-color: white;
+ margin-top: 1em;
+ border-radius: 4em;
+
+}
+/***** dandole estilos a los titulos H1*/
+h1{
+	font-family: comic sans;
+}
+
+/***** dandole estilos a los titulos H5*/
+
+h5{
+     font-family: time new roman;
+     color: hotpink;
+     text-align: center;
+}
+
+small{
+
+	font-color: white;
+}
+p{
+	font-family: time new roman;
+	
+}
+small{
+	font-family: time new roman;
+	color: black;
+}

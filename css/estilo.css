@@ -40,8 +40,10 @@
 
 */
 body{
-	background-image: url(../img/lon.jpeg);
+	background-image: url(../img/test1.jpg);
 	background-color: white;
+	background-repeat: no-repeat;
+	background-size: 80em 100em;
 }
 
 /******* diseño del narv **********/

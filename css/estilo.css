@@ -105,7 +105,8 @@ text-align: center;
 /*******diseño de los cuadros de texto*******/
  .card{
 
-border-style: 2px solid olive;
+border-style: 2px double border olive;
+
 
  }
 /*****dandole estilo a la clase container******/
@@ -115,7 +116,7 @@ border-style: 2px solid olive;
  width: 100%;
  border: 100px inset silver  ;
  background-color: white;
- margin-top: 1em;
+ margin-top: 5em;
  border-radius: 4em;
 
 }
@@ -138,9 +139,13 @@ small{
 }
 p{
 	font-family: time new roman;
+	text-align: center;
 	
 }
 small{
 	font-family: time new roman;
 	color: black;
 }
+
+
+/**************************************/
